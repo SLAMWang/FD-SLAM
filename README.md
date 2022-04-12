@@ -3,6 +3,10 @@ This is an open source ROS package for real-time 6DOF SLAM using a 3D LIDAR.
 
 It is based on hdl_graph_slam and the steps to run our system are same with hdl-graph-slam.
 
+## hdl_graph_slam
+
+[hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) is an open source ROS package for real-time 6DOF SLAM using a 3D LIDAR. It is based on 3D Graph SLAM with NDT scan matching-based odometry estimation and loop detection. It also supports several graph constraints, such as GPS, IMU acceleration (gravity vector), IMU orientation (magnetic sensor), and floor plane (detected in a point cloud). We have tested this package with Velodyne (HDL32e, VLP16) and RoboSense (16 channels) sensors in indoor and outdoor environments.
+
 ##The names and functions do not change compared with hdl-graph-slam.
 
 We use a novel feature-based Lidar odometry for fast scan-matching, and use a modified GICP for keyframe matching. The backend in hdl-graph-slam is reused.  We have tested this package with Velodyne (HDL32e, HDL64,VLP16) and Ouster64 sensors in indoor and outdoor environments. The corresponding configure launch files are provided.
