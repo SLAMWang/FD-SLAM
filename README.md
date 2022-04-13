@@ -3,7 +3,7 @@ This is an open source ROS package for real-time 6DOF SLAM using a 3D LIDAR.
 
 It is based on hdl_graph_slam and the steps to run our system are same with hdl-graph-slam.
 
-We also release UGICP.
+We also release [UGICP](https://github.com/SLAMWang/UGICP).
 
 Our paper is under review and will be released soon.
 FD-SLAM: Feature&Distribution-based 3D LiDAR SLAM method based on Surface Representation Refinement
@@ -58,6 +58,6 @@ The following ROS packages are required:
 - nmea_msgs
 - pcl_ros
 - [ndt_omp](https://github.com/koide3/ndt_omp)
-- [U_gicp](https://github.com/SLAMWang/UGICP) This is modified based on [fast_gicp](https://github.com/SMRT-AIST/fast_gicp) by us.
+- [U_gicp](https://github.com/SLAMWang/UGICP) This is modified based on [fast_gicp](https://github.com/SMRT-AIST/fast_gicp) by us. We use UGICP for keyframe matching.
 
 
