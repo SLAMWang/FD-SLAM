@@ -3,6 +3,8 @@ This is an open source ROS package for real-time 6DOF SLAM using a 3D LIDAR.
 
 It is based on hdl_graph_slam and the steps to run our system are same with hdl-graph-slam.
 
+We also release UGICP.
+
 Our paper is under review and will be released soon.
 FD-SLAM: Feature&Distribution-based 3D LiDAR SLAM method based on Surface Representation Refinement
 
@@ -13,7 +15,7 @@ FD-SLAM: Feature&Distribution-based 3D LiDAR SLAM method based on Surface Repres
 
 ## The names and functions do not change compared with hdl-graph-slam.
 
-We use a novel feature-based Lidar odometry for fast scan-matching, and use a modified GICP for keyframe matching. The backend in hdl-graph-slam is reused.  We have tested this package with Velodyne (HDL32e, HDL64,VLP16) and Ouster64 sensors in indoor and outdoor environments. The corresponding configure launch files are provided.
+We use a novel feature-based Lidar odometry for fast scan-matching, and use a proposed UGICP for keyframe matching. The backend in hdl-graph-slam is reused.  We have tested this package with Velodyne (HDL32e, HDL64,VLP16) and Ouster64 sensors in indoor and outdoor environments. The corresponding configure launch files are provided.
 
 ## key modifications
 src/hdl_graph_slam/imageProjection.cpp and src/hdl_graph_slam/featureAssociation.cpp are added for fast scan matching
@@ -56,6 +58,6 @@ The following ROS packages are required:
 - nmea_msgs
 - pcl_ros
 - [ndt_omp](https://github.com/koide3/ndt_omp)
-- [fast_gicp](https://github.com/SMRT-AIST/fast_gicp)
+- [U_gicp](https://github.com/SMRT-AIST/fast_gicp)
 
 
