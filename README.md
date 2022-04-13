@@ -58,6 +58,6 @@ The following ROS packages are required:
 - nmea_msgs
 - pcl_ros
 - [ndt_omp](https://github.com/koide3/ndt_omp)
-- [U_gicp](https://github.com/SMRT-AIST/fast_gicp)
+- [U_gicp](https://github.com/SLAMWang/UGICP) This is modified based on [fast_gicp](https://github.com/SMRT-AIST/fast_gicp) by us.
 
 
