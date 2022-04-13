@@ -6,7 +6,7 @@
   <arg name="enable_gps" default="false" />
   <arg name="enable_imu_acc" default="false" />
   <arg name="enable_imu_ori" default="false" />
-  <arg name="Sequence_" default="ours_hdl_hdl_1_mapshow_k4_Stevens" />
+  <arg name="Sequence_" default="Seq00_hdl_hdl_1_mapshow_k4_Stevens" />
   <arg name="use_prev_test_" default="true" />
   <arg name="Thre_" default="5.0"/>
   <arg name="Time_" default="20.0"/>
@@ -35,7 +35,7 @@
     <param name="distance_near_thresh" value="0.1" />
     <param name="distance_far_thresh" value="100.0" />
     <!-- NONE, VOXELGRID, or APPROX_VOXELGRID -->
-    <param name="downsample_method" value="NONE" />
+    <param name="downsample_method" value="VOXELGRID" />
     <param name="downsample_resolution" value="0.1" />
     <!-- NONE, RADIUS, or STATISTICAL -->
     <param name="outlier_removal_method" value="NONE" />
